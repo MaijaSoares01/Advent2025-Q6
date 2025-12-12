@@ -8,16 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * To solve https://adventofcode.com/2025/day/XX
- * Solutions:
- * https://www.reddit.com/r/adventofcode/comments/1pfguxk/2025_day_6_solutions/
- *
- * Part 1: 6172481852142
- * Part 2: 10188206723429
- *
- * @author mat
- */
+
 public class CephalopodMath {
     // Variables to run harness
     private static final boolean DEBUG = false;
@@ -31,11 +22,6 @@ public class CephalopodMath {
     List<char[]> numberLinesArray = new ArrayList<>();
     List<Operation> operationsLine = new ArrayList<>();
 
-    /**
-     * Constructor. Read the input file and parse it into useful data
-     *
-     * @param inputLines input lines read from the file
-     */
     public CephalopodMath(List<String> inputLines) {
 
         // Process the lines for part 1
